@@ -7,8 +7,11 @@
 | Linux and macOS source builds | Unverified; no platform binaries published |
 | WASM + WebGPU | Planned; no working browser build published |
 | WebGL2 | No compatibility target currently implemented |
+| itch.io | Free Windows v0.1.0, source ZIP and checksums published; signed-out access and download verified |
 
-The Windows release contains the executable, shaders, sample configurations, documentation and license notices. It can be distributed directly through a GitHub Release or uploaded to itch.io as a Windows download. The source repository contains the renderer and reproducible build tools; compiled artifacts and local experiment history do not belong in Git.
+The Windows release contains the executable, shaders, sample configurations, documentation and license notices. It is available on [itch.io](https://mamuk.itch.io/journey-to-a-black-hole) and [GitHub Releases](https://github.com/furkanmamuk/journey-to-a-black-hole/releases/tag/v0.1.0). The source repository contains the renderer and reproducible build tools; compiled artifacts and local experiment history do not belong in Git.
+
+On 1 October 2026, an unauthenticated itch.io download of the Windows ZIP matched the tested GitHub artifact byte for byte (SHA-256 `85fef593daff9a319137602044c30657efd56e08289d270e8ad2b1816a073137`). The renderer was executed and visually reviewed from an extracted portable package before distribution. This establishes the published download, not acceptance on other users' machines or installation through the itch desktop app.
 
 ## Browser port requirements
 

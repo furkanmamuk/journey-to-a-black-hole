@@ -10,7 +10,7 @@ This is an exploration demo and rendering laboratory. Its simulation follows bou
 
 ## Download and play
 
-Download the **Windows x64 ZIP** from [Releases](https://github.com/furkanmamuk/journey-to-a-black-hole/releases). Extract the complete folder and run:
+Download the free **Windows x64 ZIP** from [itch.io](https://mamuk.itch.io/journey-to-a-black-hole) or [GitHub Releases](https://github.com/furkanmamuk/journey-to-a-black-hole/releases). Extract the complete folder and run:
 
 - **Start Journey.cmd** — guided flight; movement or mouse-look immediately takes over.
 - **Free Exploration.cmd** — free flight from the distant view.
@@ -77,7 +77,7 @@ cargo check --locked
 cargo test --locked
 ```
 
-On Windows, `scripts/package.ps1` builds portable and source ZIPs with licenses and documentation. `scripts/measure.ps1` measures the release renderer; `scripts/review.ps1` captures repeatable views. See [contributor and release notes](CONTRIBUTING.md).
+On Windows, `scripts/package.ps1` builds portable and source ZIPs with licenses and documentation. `scripts/measure.ps1` measures the release renderer; `scripts/review.ps1` captures repeatable views. See [contributor notes](CONTRIBUTING.md) and the [distribution checklist](docs/DISTRIBUTION.md).
 
 ## Scope and license
 
