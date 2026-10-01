@@ -1,0 +1,14 @@
+Journey to a Black Hole
+Copyright (c) 2026 Furkan Mamuk
+Original software and documentation: MIT OR Apache-2.0.
+
+Bevy and bundled runtime dependencies retain their own licenses.
+Native release packages include collected third-party license notices.
+
+The sampled CIE 1931 2-degree colour-matching table in spectrum.wgsl
+is separately licensed CC BY-SA 4.0. See assets/CIE-NOTICE.txt for
+dataset attribution, source, DOI, adaptation and license details.
+
+Scientific references are cited in docs/MATH.md. The shaders implement
+original equations/derivations; this project does not distribute source
+from the cited research renderers.

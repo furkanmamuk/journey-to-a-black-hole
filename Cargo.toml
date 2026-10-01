@@ -1,0 +1,20 @@
+[package]
+name = "journey-to-a-black-hole"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+description = "Real-time Schwarzschild and Kerr ray tracing with HDR PBR and quantized presentation"
+repository = "https://github.com/furkanmamuk/journey-to-a-black-hole"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+bevy = { version = "~0.19.0", default-features = false, features = ["default_app", "bevy_winit", "bevy_pbr", "bevy_post_process", "bevy_anti_alias", "bevy_ui_render", "bevy_mikktspace", "multi_threaded", "tonemapping_luts", "zstd_rust", "png", "default_font"] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+codegen-units = 16

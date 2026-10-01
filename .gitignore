@@ -1,0 +1,13 @@
+/target
+/.research
+/captures
+/logs
+/dist
+/journey.cfg
+__pycache__/
+*.py[cod]
+*.pdb
+*.log
+.env
+.env.*
+!.env.example
